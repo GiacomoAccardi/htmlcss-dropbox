@@ -53,7 +53,21 @@ body{
     border: 2px dashed rgb(0, 0, 0);
 }
 
+.col100{
+    width: 100%;
+    padding: 35px;
+    background-color: rgb(21, 109, 40);
+    border: 2px dashed rgb(0, 0, 0);
+}
+
 
 /*UTILITY CLASSES*/
 
 /*STYLING CLASSES*/
+
+/*
+background-color: rgb(21, 109, 40);
+border: 2px dashed rgb(0, 0, 0);
+
+background-color: pink;
+*/
