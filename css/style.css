@@ -75,12 +75,40 @@ ul{
     list-style: none;
 }
 
+li{
+    margin-bottom: 20px;
+}
+
 .mr20p{
     margin-right: 20px;
 }
 
+.mr5p{
+    margin-right: 5px;
+}
+
 .mt20p{
     margin-top: 30px;
+}
+
+.mt10{
+    margin-top: 10px;
+}
+
+.mt5{
+    margin-top: 5px;
+}
+
+.mt20{
+    margin-top: 20px;
+}
+
+.mb20{
+    margin-bottom: 20px;
+}
+
+.mt50p{
+    margin-top: 50px;
 }
 
 .mt100p{
@@ -115,12 +143,33 @@ ul{
     padding: 35px;
 }
 
+.pbox{
+    padding: 30px 15px;
+}
+
+.ta-cntr{
+    text-align: center;
+}
+
+.evenly{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.box-height{
+    height: 1000px;
+}
+
+.minusm-20{
+    margin-top: -20px;
+}
+
+
 /*STYLING CLASSES*/
 
 .layouting{
     background-color: rgb(21, 109, 40);
     border: 2px dashed rgb(0, 0, 0);
-    height: 100px;
 }
 
 
@@ -130,7 +179,7 @@ ul{
 }
 
 .btn-blue{
-    padding: 5px 15px;
+    padding: 15px 30px;
     background-color: #0057E5 ;
     color: white;
     border: none;
@@ -140,7 +189,40 @@ ul{
     background-color: #A1C9F7;
 }
 
-h1, .downarrow{
+.big-h1, .downarrow{
     font-size: 76px;
+}
+
+.radius-config{
+    border: 2px solid #0057E5;
+}
+
+.content-box{
+    border: 1px solid rgb(175, 175, 175);
+}
+
+.headbox{
+    border-bottom: 1px solid rgb(175, 175, 175);
+    text-align: center;
+    padding: 5px;
+}
+
+.grey-txt{
+    color: rgb(175, 175, 175);
+}
+
+hr{
+    width: 50px;
+    color:  rgb(175, 175, 175);
+}
+
+.l-head{
+    font-weight: bold;
+}
+
+.check{
+    color:#0057E5;
+    font-weight: bold;
+    margin-right: 5px;
 }
 
