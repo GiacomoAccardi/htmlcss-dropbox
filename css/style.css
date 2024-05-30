@@ -19,8 +19,8 @@ body{
     margin: 0 auto;
 }
 
-.container50{
-    width:50%;
+.container60{
+    width:60%;
     margin: 0 auto;
 }
 
@@ -46,17 +46,18 @@ body{
 
 .col40{
     width: 40%;
-    padding: 35px;
 }
 
 .col60{
     width: 60%;
-    padding: 35px;
 }
 
 .col100{
     width: 100%;
-    padding: 35px;
+}
+
+.col33{
+    width: calc(100% / 3 - 35px);
 }
 
 .jumbo{
@@ -65,6 +66,8 @@ body{
     position: absolute;
     right: 60px;
 }
+
+
 
 /*UTILITY CLASSES*/
 
@@ -80,6 +83,10 @@ ul{
     margin-top: 30px;
 }
 
+.mt100p{
+    margin-top: 100px;
+}
+
 .btn-margin-config{
     margin: 30px 0 30px 0;
 }
@@ -92,6 +99,10 @@ ul{
     justify-content: flex-end;
 }
 
+.around{
+    justify-content: space-between;
+}
+
 .al-cntr{
     align-items: center;
 }
@@ -100,14 +111,18 @@ ul{
     padding: 10px;
 }
 
+.p35{
+    padding: 35px;
+}
+
 /*STYLING CLASSES*/
 
-/*
-background-color: rgb(21, 109, 40);
-border: 2px dashed rgb(0, 0, 0);
+.layouting{
+    background-color: rgb(21, 109, 40);
+    border: 2px dashed rgb(0, 0, 0);
+    height: 100px;
+}
 
-background-color: pink;
-*/
 
 .stylelink{
     color: black;
