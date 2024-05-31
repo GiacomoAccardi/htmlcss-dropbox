@@ -73,6 +73,11 @@ body{
     height: 550px;
 }
 
+.feature-img{
+    width: 310px;
+    height: 250px;
+    margin-bottom: 20px;
+}
 
 /*UTILITY CLASSES*/
 
