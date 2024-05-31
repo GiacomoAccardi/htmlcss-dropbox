@@ -144,11 +144,15 @@ li{
 }
 
 .pbox{
-    padding: 30px 15px;
+    padding: 45px 45px;
 }
 
 .ta-cntr{
     text-align: center;
+}
+
+.ta-end{
+    text-align: end;
 }
 
 .evenly{
@@ -157,12 +161,10 @@ li{
 }
 
 .box-height{
-    height: 1000px;
+    height: 1130px;
 }
 
-.minusm-20{
-    margin-top: -20px;
-}
+
 
 
 /*STYLING CLASSES*/
