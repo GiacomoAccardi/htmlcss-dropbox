@@ -14,6 +14,7 @@ body{
     width: 100%;
 }
 
+
 .container70{
     width:70%;
     margin: 0 auto;
@@ -40,6 +41,12 @@ body{
     padding: 10px;
 }
 
+.row-nop{
+    width: 100vw;
+    display: flex;
+    flex-wrap: wrap;
+}
+
 .col50{
     width: 50%;
 }
@@ -60,6 +67,18 @@ body{
     width: calc(100% / 3 - 35px);
 }
 
+.col33vw{
+    width: calc(100vw / 3);
+}
+
+.cell{
+    width: calc(100vw / 3 /2);
+    height: 280px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 .jumbo{
     width: 750px;
     height: 450px;
@@ -73,10 +92,33 @@ body{
     height: 550px;
 }
 
+.partnerlogo{
+    height: 100px;
+    width: 100px;
+    filter: invert(1);
+}
+
+.partnerlogo-flo{
+    height: 35px;
+    width: 120px;
+    filter: invert(1);
+}
+
 .feature-img{
     width: 310px;
     height: 250px;
     margin-bottom: 20px;
+}
+
+.logo-designit{
+    height: 100px;
+    width: 200px;
+}
+
+.logo-rightside{
+    height: 100px;
+    width: 130px;
+    filter: invert(1);
 }
 
 /*UTILITY CLASSES*/
@@ -181,7 +223,7 @@ li{
 
 .layouting{
     background-color: rgb(21, 109, 40);
-    border: 2px dashed rgb(0, 0, 0);
+    height: 100%;
 }
 
 
@@ -198,7 +240,7 @@ li{
 }
 
 .btn-white{
-    border: 1px solid rgb(175, 175, 175);
+    border: 1px solid rgb(224, 224, 224);
     padding: 15px 30px;
     background-color: white;
 }
@@ -216,22 +258,23 @@ li{
 }
 
 .content-box{
-    border: 1px solid rgb(175, 175, 175);
+    border: 1px solid rgb(224, 224, 224);
 }
 
 .headbox{
-    border-bottom: 1px solid rgb(175, 175, 175);
+    border-bottom: 1px solid rgb(224, 224, 224);
     text-align: center;
     padding: 5px;
 }
 
 .grey-txt{
-    color: rgb(175, 175, 175);
+    color: rgb(224, 224, 224);
 }
+
 
 hr{
     width: 50px;
-    color:  rgb(175, 175, 175);
+    color: rgb(224, 224, 224);
 }
 
 .l-head{
@@ -242,5 +285,40 @@ hr{
     color:#0057E5;
     font-weight: bold;
     margin-right: 5px;
+}
+
+.bg-grey{
+    background-color: rgb(224, 224, 224);
+}
+
+.bg-green{
+    background-color: rgb(157, 212, 157);
+    border: 15px solid rgb(195, 228, 255);
+}
+
+.bg-bordeaux{
+    background-color: rgb(105, 32, 32);
+}
+
+.bg-red{
+    background-color: red;
+}
+
+.bg-celeste{
+    background-color: #20a6ff ;
+}
+
+.bg-azure{
+    background-color: #b1c5e6 ;
+}
+
+.bg-blu{
+    background-color: #0026ff ;
+}
+
+
+
+.bg-yellow{
+    background-color: rgb(255, 217, 0) ;
 }
 
