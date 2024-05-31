@@ -68,6 +68,11 @@ body{
 }
 
 
+.partner{
+    width: 650px;
+    height: 550px;
+}
+
 
 /*UTILITY CLASSES*/
 
@@ -144,7 +149,7 @@ li{
 }
 
 .pbox{
-    padding: 45px 45px;
+    padding: 35px 35px;
 }
 
 .ta-cntr{
@@ -185,6 +190,12 @@ li{
     background-color: #0057E5 ;
     color: white;
     border: none;
+}
+
+.btn-white{
+    border: 1px solid rgb(175, 175, 175);
+    padding: 15px 30px;
+    background-color: white;
 }
 
 .bg-lightblu{
