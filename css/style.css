@@ -8,6 +8,8 @@ body{
     font-family: "open sans", sans-serif;
 }
 
+
+
 /*LAYOUT CLASS*/
 
 .container-full{
@@ -216,8 +218,13 @@ li{
     height: 1130px;
 }
 
+.mb100p{
+    margin-bottom: 100px;
+}
 
-
+.between{
+    justify-content: space-between;
+}
 
 /*STYLING CLASSES*/
 
@@ -271,6 +278,9 @@ li{
     color: rgb(224, 224, 224);
 }
 
+.red-txt{
+    color: rgb(105, 32, 32);
+}
 
 hr{
     width: 50px;
@@ -315,8 +325,6 @@ hr{
 .bg-blu{
     background-color: #0026ff ;
 }
-
-
 
 .bg-yellow{
     background-color: rgb(255, 217, 0) ;
