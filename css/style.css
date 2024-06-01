@@ -13,7 +13,7 @@ body{
 /*LAYOUT CLASS*/
 
 .container-full{
-    width: 100%;
+    width: 100vw;
 }
 
 
@@ -123,6 +123,14 @@ body{
     filter: invert(1);
 }
 
+.basis{
+    flex-basis: 0;
+}
+
+.grow{
+    flex-grow: 1;
+}
+
 /*UTILITY CLASSES*/
 
 ul{
@@ -224,6 +232,10 @@ li{
 
 .between{
     justify-content: space-between;
+}
+
+.inline-block{
+    display: inline-block;
 }
 
 /*STYLING CLASSES*/
@@ -328,5 +340,9 @@ hr{
 
 .bg-yellow{
     background-color: rgb(255, 217, 0) ;
+}
+
+.b-top{
+    border-top: 2px solid rgb(224, 224, 224);
 }
 
