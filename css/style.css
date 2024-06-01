@@ -73,6 +73,10 @@ body{
     width: calc(100vw / 3);
 }
 
+.col5{
+    width: calc(100% / 5);
+}
+
 .cell{
     width: calc(100vw / 3 /2);
     height: 280px;
@@ -230,12 +234,32 @@ li{
     margin-bottom: 100px;
 }
 
+.mb50p{
+    margin-bottom: 50px;
+}
+
 .between{
     justify-content: space-between;
 }
 
 .inline-block{
     display: inline-block;
+}
+
+.txt-sm{
+    font-size: 10pt;
+}
+
+.txt-xsm{
+    font-size: 6pt;
+}
+
+.full-hr{
+    width: 100%;
+}
+
+.foot-hr{
+    width: 80px;
 }
 
 /*STYLING CLASSES*/
@@ -346,3 +370,7 @@ hr{
     border-top: 2px solid rgb(224, 224, 224);
 }
 
+.bg-black{
+    background-color: black;
+    color: white;
+}
