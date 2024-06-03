@@ -283,6 +283,25 @@ li{
     width: 80px;
 }
 
+.faq-box{
+    position: relative;
+}
+
+.faq-box:hover{
+    height: 200px;
+    cursor: pointer;
+}
+
+.hidden-txt{
+    visibility: hidden;
+    position: absolute;
+    top: 150px;
+}
+
+.faq-box:hover > .hidden-txt{
+    visibility: visible;
+}
+
 /*STYLING CLASSES*/
 
 .layouting{
