@@ -432,3 +432,7 @@ button:hover{
     color: magenta;
     cursor: pointer;
 }
+
+.cell:hover{
+    border: 15px solid magenta;
+}
